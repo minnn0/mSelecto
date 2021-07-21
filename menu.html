@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="selecto">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="selecto coffee">
+    <meta property="og:url" content="http://l9980214.dothome.co.kr/mSelectocoffee/">
+    <meta property="og:image" content="http://l9980214.dothome.co.kr/mSelectocoffee/images/selecto_og.png">
+    <meta property="og:description" content="아메리카노 셀렉트샵 셀렉토커피">
+    <title>Selecto Coffee</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico?v=1">
+    <link rel="apple-touch-icon" href="images/app_home.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+</head>
+<body>
+    <div id="skipNavi">
+        <a href="#container">본문바로가기</a>
+    </div>
+    <div id="wrap">
+        <!-- 헤더 -->
+        <header id="header">
+                <a class="btn_open" href="#">메뉴 열기</a>
+                <div class="dimm"></div>
+                <aside class="gnb_box">
+                    <div class="gnb_logo">
+                        <img src="images/gnb_logo.png" alt="로고">
+                    </div>
+                    <nav class="gnb">
+                        <ul class="depth1">
+                            <li>
+                                <a href="#">ABOUT</a>
+                                <ul class="depth2">
+                                    <li><a href="brand_story.html">브랜드 스토리</a></li>
+                                    <li><a href="brand_story.html">HISTORY</a></li>
+                                    <li><a href="brand_story.html"> 스페셜 티 커피</a></li>
+                                    <li><a href="brand_story.html">셀렉토 캠페인</a></li>
+                                    <li><a href="brand_story.html">로스팅 하우스</a></li>
+                                    <li><a href="brand_story.html">셀렉토 뉴크롭원두</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">MENU</a>
+                                <ul class="depth2">
+                                    <li><a href="menu.html">신메뉴</a></li>
+                                    <li><a href="menu.html">음료</a></li>
+                                    <li><a href="menu.html">디저트</a></li>
+                                    <li><a href="menu.html">MD</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">EVENT</a>
+                                <ul class="depth2">
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">셀렉토 SNS</a></li>
+                                    <li><a href="#">제작지원</a></li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">공지사항</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="store_search.html">STORE</a>
+                            </li>
+                            <li>
+                                <a href="#">FRANCHISE</a>
+                                <ul class="depth2">
+                                    <li><a href="franchise_inquiry.html">브랜드 경쟁력</a></li>
+                                    <li><a href="franchise_inquiry.html">창업시스템</a></li>
+                                    <li><a href="franchise_inquiry.html">창업비용</a></li>
+                                    <li><a href="franchise_inquiry.html">인테리어</a></li>
+                                    <li><a href="franchise_inquiry.html">리모델링 창업지원</a></li>
+                                    <li><a href="franchise_inquiry.html">실시간 추천점포</a></li>
+                                    <li><a href="franchise_inquiry.html">셀렉토 창업스토리</a></li>
+                                    <li><a href="franchise_inquiry.html">창업문의</a></li>
+                                    <li><a href="franchise_inquiry.html">사업설명회</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">COMPANY</a>
+                                <ul class="depth2">
+                                    <li><a href="#">본사소개</a></li>
+                                    <li><a href="#">인재채용</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                    <li><a href="#">입점 및 제휴문의</a></li>
+                                    <li><a href="#">고객문의</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="lang_wrap">
+                        <ul class="lang">
+                            <li class="active"><a href="#">KOREAN</a></li>
+                            <li><a href="#">CHINESE</a></li>
+                        </ul>
+                    </div>
+                </aside>
+                <button class="btn_close" type="button">메뉴 닫기</button>
+                <h1 class="logo"><a href="index.html"><img src="images/m_logo.png" alt="셀렉토커피"></a></h1>
+                <button class="btn_total_search" type="button">통합검색</button>
+        </header> 
+        <!-- // 헤더 -->
+        <div id="container" class="menu_container">
+            <div class="sub_visual">
+                <div class="sub_tit">
+                    <h2>음료</h2>
+                </div>
+            </div>
+            <div class="sub_tab">
+                <ul class="tab">
+                    <li><a href="#">신메뉴</a></li>
+                    <li class="active"><a href="#">음료</a></li>
+                    <li><a href="#">디저트</a></li>
+                    <li><a href="#">MD</a></li>
+                </ul>
+            </div>
+            <div class="contents">
+                <div class="menu_search_wrap">
+                    <h4>메뉴검색</h4>
+                    <div class="menu_check">
+                        <!-- 메뉴 체크박스 -->
+                        <div class="checkbox_wrap">
+                            <input type="checkbox" id="coffee" checked="" class="blind">
+                            <label for="coffee">Coffee</label>
+                        </div>
+                        <div class="checkbox_wrap">
+                            <input type="checkbox" id="beverage" class="blind">
+                            <label for="beverage">Beverage</label>
+                        </div>
+                        <div class="checkbox_wrap">
+                            <input type="checkbox" id="tea" class="blind">
+                            <label for="tea">Tea</label>
+                        </div>
+                        <div class="checkbox_wrap">
+                            <input type="checkbox" id="iceblend" class="blind">
+                            <label for="iceblend">Ice Blend</label>
+                        </div>
+                        <div class="checkbox_wrap">
+                            <input type="checkbox" id="ade&amp;juice" class="blind">
+                            <label for="ade&amp;juice">Ade&amp;Juice</label>
+                        </div>
+                        <!-- // 메뉴 체크박스 -->
+                    </div>
+                    <!-- 메뉴 통합검색 -->
+                    <div class="input_wrap">
+                        <input type="text" placeholder="메뉴 통합검색">
+                        <button class="btn_search" type="submit">버튼</button>
+                    </div>
+                     <!-- // 메뉴 통합검색 -->
+                </div>
+                <div class="menu_list_wrap">
+                    <ul class="menu_list">
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu01.jpg" alt="메뉴">
+                                <div class="txt_box">
+                                    <p class="new_menu">
+                                        디카페인 콜드브루 달고나
+                                        <span class="new_lb">NEW</span>
+                                    </p>
+                                    <p class="eng_menu">Decaf Cold brew dalgona</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu02.jpg" alt="">
+                                <div class="txt_box">
+                                    <p class="new_menu"> 디카페인 콜드브루 라떼플롯
+                                        <span class="new_lb">NEW</span>
+                                    </p>
+                                    <p class="eng_menu">Decaf Cold brew Latte Floats</p>
+                                </div>
+                            </a>                   
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu03.jpg" alt="">
+                                <div class="txt_box">
+                                    <p class="new_menu">디카페인 콜드브루
+                                        <span class="new_lb">NEW</span></p>
+                                    <p class="eng_menu">Decaf Cold brew</p>
+                                </div>                               
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu04.jpg" alt="">
+                                <div class="txt_box">
+                                    <p class="new_menu">디카페인 콜드브루 라떼
+                                        <span class="new_lb">NEW</span></p>
+                                    <p class="eng_menu">Decaf Cold brew latte</p>
+                                </div>                          
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu05.jpg" alt="">
+                                <div class="txt_box">
+                                    <p>흑임자 카페라떼</p><p>
+                                    <p class="eng_menu">Black Sesame Cafe Latte</p>
+                                </div>                              
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu06.jpg" alt="">
+                                <div class="txt_box">
+                                    <p>아이스 셀렉토 스페셜 블렌드</p><p>
+                                    <p class="eng_menu">ICE SELECTO SPECIAL BLEND</p>
+                                </div>                             
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu07.jpg" alt="">
+                                <div class="txt_box">
+                                    <p>셀렉토 스페셜 블렌드</p><p>
+                                    <p class="eng_menu">SELECTO SPECIAL BLEND</p>
+                                </div>                             
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu08.jpg" alt="">
+                                <div class="txt_box">
+                                    <p>아이스 에티오피아 예가체프</p><p>
+                                    <p class="eng_menu">ICE ETHIOPIA YIRGACHEFFE</p>
+                                </div>                             
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu09.jpg" alt="">
+                                <div class="txt_box">
+                                    <p>에티오피아 예가체프</p><p>
+                                    <p class="eng_menu">ETHIOPIA YIRGACHEFFE</p>
+                                </div>      
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/menu/menu10.jpg" alt="">
+                                <div class="txt_box">
+                                    <p>아이스 콜롬비아 안티오키아</p><p>
+                                    <p class="eng_menu">ICE COLOMBIA ANTIOQUIA</p>
+                                </div>                              
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dimm"></div>
+                    <div class="modal_info">
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>디카페인 콜드브루 달고나</h3>
+                                <h4>Decaf Cold brew dalgona</h4>
+                            </div>
+                            <p class="info_txt">
+                                트렌디한 제품인 달고나에 셀렉토만의 디카페인 콜드브루, 그리고 부드러운 크림폼이 조화롭게 어우러지는 제품
+                            </p>
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>디카페인 콜드브루 라떼플롯</h3>
+                                <h4>Decaf Cold brew Latte Floats</h4>
+                            </div>
+                            <p class="info_txt">
+                                퓨어마일드 커피와 부드러운 우유, 우유 아이스크림이 어우러져 디카페인 콜드브루 라떼의 새로움을 느끼게 해주는 음료
+                            </p>
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>디카페인 콜드브루</h3>
+                                <h4>Decaf Cold brew</h4>
+                            </div>
+                            <p class="info_txt">
+                                콜롬비아 생두가 가진 달콤한 카카오 플레이버가 특징이며, 친환경적 카페인 제거 공정을 거쳤음에도 원두가 가진 풍미가 살아있는 디카페인
+                                콜드브루
+                            </p>                    
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>디카페인 콜드브루 라떼</h3>
+                                <h4>Decaf Cold brew Latte</h4>
+                            </div>
+                            <p class="info_txt">
+                                친환경적인 카페인 제거 공정을 거쳐 만든 디카페인 라떼로 원두가 가진 풍미를 제대로 느낄 수 있는 라떼
+                            </p>                       
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>흑임자 카페라떼</h3>
+                                <h4>Black Sesame Cafe Latte</h4>
+                            </div>
+                            <p class="info_txt">
+                                국산 흑임자와 견과류 맛이 나는 콜롬비아 안티오키아, 치즈폼을 넣어 세 가지 재료가 조화를 이루는 음료
+                            </p>                      
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>아이스 셀렉토 스페셜 블렌드</h3>
+                                <h4>ICE SELECTO SPECIAL BLEND</h4>
+                            </div>
+                            <p class="info_txt">
+                                진한 다크 초콜릿과 구운 아몬드의 묵직한 바디감이 매력적인 조화를 이루는 다크한 스페셜 블렌드 커피
+                            </p>                    
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>셀렉토 스페셜 블렌드</h3>
+                                <h4>SELECTO SPECIAL BLEND</h4>
+                            </div>
+                            <p class="info_txt">
+                                진한 다크 초콜릿과 구운 아몬드의 묵직한 바디감이 매력적인 조화를 이루는 다크한 스페셜 블렌드 커피
+                            </p>                       
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>아이스 에티오피아 예가체프</h3>
+                                <h4>ICE ETHIOPIA YIRGACHEFF</h4>
+                            </div>
+                            <p class="info_txt">
+                                화사한 꽃향기, 과일의 상큼한 산미가 조화로운 부드럽고 세련된 싱글오리진 커피
+                            </p>                        
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>에티오피아 예가체프</h3>
+                                <h4>ETHIOPIA YIRGACHEFFE</h4>
+                            </div>
+                            <p class="info_txt">
+                                화사한 꽃향기, 과일의 상큼한 산미가 조화로운 부드럽고 세련된 싱글오리진 커피
+                            </p>                 
+                        </div>
+                        <div class="menu_detail_pop">
+                            <div class="info_tit">
+                                <h3>아이스 콜롬비아 안티오키아</h3>
+                                <h4>ICE COLOMBIA ANTIOQUIA</h4>
+                            </div>
+                            <p class="info_txt">
+                                귤을 연상시키는 가벼운 산미와 견과류의 고소한 맛의 완벽한 밸런스를 경험할 수 있는 싱글오리진 커피
+                            </p>                       
+                        </div>                      
+                        <button class="btn_close" type="button">정보창 닫기</button>
+                    </div>
+                    <!-- 더보기 버튼 -->
+                    <div class="btn_more_wrap">
+                        <a href="#" class="btn btn_more">더보기</a>
+                    </div>
+                    <!-- // 더보기 버튼  -->
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="sns_icon_wrap">
+                <a href="#"> <img src="images/icon_fb.png" alt="페이스북"> </a>
+                <a href="#"> <img src="images/icon_blog.png" alt="블로그"> </a>
+                <a href="#"> <img src="images/icon_insta.png" alt="인스타"> </a>
+            </div>
+            <div class="footer_menu_wrap">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">인재채용</a></li>
+                    <li><a href="#">오시는길</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                </ul>
+            </div>
+            <div class="address_wrap">
+                <address>서울시 구로구 디지털로26길 61<br> 에이스하이엔드타워 2차 1402호,1404호</address>
+                <p class="info_tit">
+                    대표 : 황규연 | 사업자등록번호 : 109-81-99153<br>TEL. 1600-5649 | FAX. 02-6340-1701 
+                </p>
+                <p class="copy">COPYRIGHT ㈜맥스원이링크 ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="btn_top">
+                <a href="#"><img src="images/topbtn.png" alt="페이지 상단 이동"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js?v=<?php echo time(); ?>"></script>
+</body>
+</html>
